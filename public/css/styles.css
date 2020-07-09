@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.appOuterContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+}
+
+.appOuterContainer .appInnerContainer {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.navBar {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: lightblue;
+  -webkit-box-shadow: 0rem 0.1rem 0.25rem 0rem #42526e;
+          box-shadow: 0rem 0.1rem 0.25rem 0rem #42526e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 1;
+}
+
+.navBar h1 {
+  margin: 0;
+  padding: 1rem;
+  font-family: 'Great Vibes', cursive;
+  font-size: 5.625rem;
+}
+
+.navBar a {
+  text-decoration: none;
+}
+
+.navBar a:visited {
+  color: black;
+}
+
+.navBar .linksContainer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navBar .linksContainer li {
+  margin: 1rem;
+  list-style: none;
+}
+
+footer {
+  background-color: lightblue;
+  -webkit-box-shadow: 0rem -0.1rem 0.25rem 0rem #42526e;
+          box-shadow: 0rem -0.1rem 0.25rem 0rem #42526e;
+  text-align: center;
+}
+
+h2 {
+  color: #89c9b8;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+p {
+  font-family: 'Tajawal', sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Muli', sans-serif;
+  color: coral;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.top-container {
+  background-color: #89c9b8;
+  position: relative;
+  padding-top: 6.25rem;
+}
+
+.top-container h1 {
+  margin-top: 0;
+  font-family: 'Great Vibes', cursive;
+  font-size: 5.625rem;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 18.75rem;
+  top: 3.125rem;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 18.75rem;
+  bottom: 22rem;
+}
+
+.palm {
+  width: 450px;
+  height: 400px;
+}
+
+.ray {
+  padding-top: 2rem;
+  height: 12rem;
+  width: 12rem;
+}
+
+.skill-row {
+  display: inline-block;
+  position: relative;
+}
+
+.comp {
+  float: left;
+  position: relative;
+  bottom: 2rem;
+  height: 12rem;
+  width: 12rem;
+}
+
+.faze {
+  float: right;
+  position: relative;
+  top: 2rem;
+  height: 12rem;
+  width: 12rem;
+}
+
+.sporty {
+  float: left;
+  position: relative;
+  height: 12rem;
+  width: 12rem;
+}
+
+.design {
+  position: relative;
+}
+
+.head {
+  position: relative;
+  right: 6rem;
+}
+
+.cr {
+  font-size: 1rem;
+}
+
+.footer-link {
+  display: inline-block;
+}
+/*# sourceMappingURL=styles.css.map */
